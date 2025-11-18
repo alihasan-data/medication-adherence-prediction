@@ -38,6 +38,7 @@ medication-adherence-prediction/
 ├── README.md
 └── .gitignore
 
+
 🎯 Project Goal
 
 Medication adherence directly affects:
@@ -81,17 +82,18 @@ src/generate_synthetic_adherence_data.py
 
 Variables include:
 
-Feature	Description
-age	Patient age
-gender	M/F
-chronic_conditions	Count of chronic diseases
-num_meds	Number of medications
-refill_gap_days	Days without medication supply
-prior_year_adherence	Percent adherence last year
-mental_health_flag	Depression/anxiety (0/1)
-copay_tier	low / medium / high
-plan_type	Commercial / Medicare / Medicaid
-adherent	Target (1=adherent, 0=non-adherent)
+| Feature              | Description                         |
+| -------------------- | ----------------------------------- |
+| age                  | Patient age                         |
+| gender               | M/F                                 |
+| chronic_conditions   | Count of chronic diseases           |
+| num_meds             | Number of medications               |
+| refill_gap_days      | Days without medication supply      |
+| prior_year_adherence | Percent adherence last year         |
+| mental_health_flag   | Depression/anxiety (0/1)            |
+| copay_tier           | low / medium / high                 |
+| plan_type            | Commercial / Medicare / Medicaid    |
+| adherent             | Target (1=adherent, 0=non-adherent) |
 
 🤖 Models Trained
 1. Logistic Regression
@@ -119,10 +121,12 @@ Passthrough for numerical features
 Clean, end-to-end workflow
 
 📈 Evaluation
-AUC Scores
-Model	AUC
-Logistic Regression	0.769
-Random Forest	0.757
+| Model               | AUC       |
+| ------------------- | --------- |
+| Logistic Regression | **0.769** |
+| Random Forest       | **0.757** |
+
+
 ROC Curve
 
 Your notebook includes a combined ROC curve comparing both models.
