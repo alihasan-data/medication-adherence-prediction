@@ -92,6 +92,7 @@ mental_health_flag	Depression/anxiety (0/1)
 copay_tier	low / medium / high
 plan_type	Commercial / Medicare / Medicaid
 adherent	Target (1=adherent, 0=non-adherent)
+
 🤖 Models Trained
 1. Logistic Regression
 
