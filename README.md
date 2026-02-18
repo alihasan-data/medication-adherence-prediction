@@ -19,6 +19,8 @@ Clean, reusable ML pipeline with preprocessing
 
 This is a strong portfolio project demonstrating how clinical expertise can be augmented with AI/ML to support medication adherence interventions.
 
+This project uses fully synthetic, simulated healthcare data created for educational purposes only. No real patient data, employer data, or protected health information (PHI) was used.
+
 📁 Project Structure
 medication-adherence-prediction/
 │
